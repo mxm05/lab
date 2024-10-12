@@ -13,7 +13,6 @@ def main():
     print (square.repr())
     respons = requests.get('https://yandex.ru')
     print(respons.content)
-    
 
 
 if __name__ == '__main__':
